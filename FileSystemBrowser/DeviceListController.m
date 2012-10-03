@@ -158,6 +158,6 @@
 		[[NSUserDefaults standardUserDefaults] setObject:((DeviceChild *)item).volumePath forKey:FSBLastSelectedVolumeKey];
 }
 
-@synthesize devicesOutlineView = _devicesOutlineView, deviceList = _deviceList, deviceGroup = _deviceGroup;
+@synthesize devicesOutlineView, deviceList, deviceGroup;
 
 @end

@@ -27,10 +27,6 @@
 @end
 
 @interface DeviceListController : NSObject {
-@private
-	DeviceListView *_devicesOutlineView;
-	NSMutableArray *_deviceList;
-	DeviceParent *_deviceGroup;
 }
 
 @property (strong) IBOutlet DeviceListView *devicesOutlineView;

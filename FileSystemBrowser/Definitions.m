@@ -8,7 +8,7 @@
 
 #import "Definitions.h"
 
-NSString *const FSBCheckedItemsKey = @"BackupItems";
+NSString *const FSBCheckedItemsKey = @"CheckedItems";
 NSString *const FSBItemPathsKey = @"ItemPaths";
 NSString *const FSBItemExclusionsKey = @"ItemExclusions";
 NSString *const FSBItemLabelKey = @"ItemLabel";
@@ -18,7 +18,7 @@ NSString *const FSBIconPathKey = @"IconPath";
 NSString *const FSBShowInvisibleFlesKey = @"ShowInvisibleFiles";
 NSString *const FSBTreatPackagesAsDirectoriesKey = @"TreatPackagesAsDirectories";
 
-NSString *const FSBRedrawBrowserNotification = @"backup.notification.redrawBrowser";
+NSString *const FSBRedrawBrowserNotification = @"FSBrowser.notification.redrawBrowser";
 
 NSUInteger const FSBMaxVisibleColums = 10;
 NSString *const FSBLastBrowserPathKey = @"LastBrowserPath";
