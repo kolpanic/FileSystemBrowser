@@ -3,51 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB9A58E8243910C900F4664A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB9A58E7243910C900F4664A /* LICENSE.txt */; };
 		CBA33BA9161357BD000899B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA33BA8161357BD000899B6 /* Cocoa.framework */; };
 		CBA33BB3161357BD000899B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA33BB1161357BD000899B6 /* InfoPlist.strings */; };
 		CBA33BB5161357BD000899B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BB4161357BD000899B6 /* main.m */; };
-		CBA33BBC161357BD000899B6 /* FBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BBB161357BD000899B6 /* FBAppDelegate.m */; };
+		CBA33BBC161357BD000899B6 /* FSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BBB161357BD000899B6 /* FSBAppDelegate.m */; };
 		CBA33BBF161357BD000899B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA33BBD161357BD000899B6 /* MainMenu.xib */; };
-		CBA33BD71613580F000899B6 /* Definitions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BCA1613580F000899B6 /* Definitions.m */; };
-		CBA33BD81613580F000899B6 /* DeviceListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BCC1613580F000899B6 /* DeviceListController.m */; };
-		CBA33BD91613580F000899B6 /* FSBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BCE1613580F000899B6 /* FSBrowserCell.m */; };
-		CBA33BDA1613580F000899B6 /* FSBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BD01613580F000899B6 /* FSBrowserController.m */; };
-		CBA33BDB1613580F000899B6 /* FSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BD21613580F000899B6 /* FSNode.m */; };
+		CBA33BD71613580F000899B6 /* FSBDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BCA1613580F000899B6 /* FSBDefinitions.m */; };
+		CBA33BD81613580F000899B6 /* FSBDeviceListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BCC1613580F000899B6 /* FSBDeviceListController.m */; };
+		CBA33BD91613580F000899B6 /* FSBBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BCE1613580F000899B6 /* FSBBrowserCell.m */; };
+		CBA33BDA1613580F000899B6 /* FSBBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BD01613580F000899B6 /* FSBBrowserController.m */; };
+		CBA33BDB1613580F000899B6 /* FSBNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BD21613580F000899B6 /* FSBNode.m */; };
 		CBA33BDC1613580F000899B6 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BD41613580F000899B6 /* ImageAndTextCell.m */; };
 		CBA33BDD1613580F000899B6 /* NSFileManager+FSBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA33BD61613580F000899B6 /* NSFileManager+FSBAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB9A58E7243910C900F4664A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		CBA33BA4161357BD000899B6 /* FileSystemBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileSystemBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA33BA8161357BD000899B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		CBA33BAB161357BD000899B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		CBA33BAC161357BD000899B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CBA33BAD161357BD000899B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CBA33BB0161357BD000899B6 /* FileSystemBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileSystemBrowser-Info.plist"; sourceTree = "<group>"; };
+		CBA33BB0161357BD000899B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBA33BB2161357BD000899B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBA33BB4161357BD000899B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBA33BB6161357BD000899B6 /* FileSystemBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileSystemBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		CBA33BBA161357BD000899B6 /* FBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAppDelegate.h; sourceTree = "<group>"; };
-		CBA33BBB161357BD000899B6 /* FBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAppDelegate.m; sourceTree = "<group>"; };
-		CBA33BBE161357BD000899B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		CBA33BC91613580F000899B6 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
-		CBA33BCA1613580F000899B6 /* Definitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Definitions.m; sourceTree = "<group>"; };
-		CBA33BCB1613580F000899B6 /* DeviceListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListController.h; sourceTree = "<group>"; };
-		CBA33BCC1613580F000899B6 /* DeviceListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListController.m; sourceTree = "<group>"; };
-		CBA33BCD1613580F000899B6 /* FSBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBrowserCell.h; sourceTree = "<group>"; };
-		CBA33BCE1613580F000899B6 /* FSBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBrowserCell.m; sourceTree = "<group>"; };
-		CBA33BCF1613580F000899B6 /* FSBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBrowserController.h; sourceTree = "<group>"; };
-		CBA33BD01613580F000899B6 /* FSBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBrowserController.m; sourceTree = "<group>"; };
-		CBA33BD11613580F000899B6 /* FSNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNode.h; sourceTree = "<group>"; };
-		CBA33BD21613580F000899B6 /* FSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNode.m; sourceTree = "<group>"; };
+		CBA33BBA161357BD000899B6 /* FSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSBAppDelegate.h; sourceTree = "<group>"; };
+		CBA33BBB161357BD000899B6 /* FSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSBAppDelegate.m; sourceTree = "<group>"; };
+		CBA33BC91613580F000899B6 /* FSBDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBDefinitions.h; sourceTree = "<group>"; };
+		CBA33BCA1613580F000899B6 /* FSBDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBDefinitions.m; sourceTree = "<group>"; };
+		CBA33BCB1613580F000899B6 /* FSBDeviceListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBDeviceListController.h; sourceTree = "<group>"; };
+		CBA33BCC1613580F000899B6 /* FSBDeviceListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBDeviceListController.m; sourceTree = "<group>"; };
+		CBA33BCD1613580F000899B6 /* FSBBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBBrowserCell.h; sourceTree = "<group>"; };
+		CBA33BCE1613580F000899B6 /* FSBBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBBrowserCell.m; sourceTree = "<group>"; };
+		CBA33BCF1613580F000899B6 /* FSBBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBBrowserController.h; sourceTree = "<group>"; };
+		CBA33BD01613580F000899B6 /* FSBBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBBrowserController.m; sourceTree = "<group>"; };
+		CBA33BD11613580F000899B6 /* FSBNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBNode.h; sourceTree = "<group>"; };
+		CBA33BD21613580F000899B6 /* FSBNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBNode.m; sourceTree = "<group>"; };
 		CBA33BD31613580F000899B6 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
 		CBA33BD41613580F000899B6 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
 		CBA33BD51613580F000899B6 /* NSFileManager+FSBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+FSBAdditions.h"; sourceTree = "<group>"; };
 		CBA33BD61613580F000899B6 /* NSFileManager+FSBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FSBAdditions.m"; sourceTree = "<group>"; };
+		CBC444F42434D22800D746D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CBC444F52434D62C00D746D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +64,8 @@
 		CBA33B99161357BD000899B6 = {
 			isa = PBXGroup;
 			children = (
+				CBC444F52434D62C00D746D2 /* README.md */,
+				CB9A58E7243910C900F4664A /* LICENSE.txt */,
 				CBA33BAE161357BD000899B6 /* FileSystemBrowser */,
 				CBA33BA7161357BD000899B6 /* Frameworks */,
 				CBA33BA5161357BD000899B6 /* Products */,
@@ -83,41 +84,29 @@
 			isa = PBXGroup;
 			children = (
 				CBA33BA8161357BD000899B6 /* Cocoa.framework */,
-				CBA33BAA161357BD000899B6 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CBA33BAA161357BD000899B6 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CBA33BAB161357BD000899B6 /* AppKit.framework */,
-				CBA33BAC161357BD000899B6 /* CoreData.framework */,
-				CBA33BAD161357BD000899B6 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		CBA33BAE161357BD000899B6 /* FileSystemBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				CBA33BC91613580F000899B6 /* Definitions.h */,
-				CBA33BCA1613580F000899B6 /* Definitions.m */,
-				CBA33BCB1613580F000899B6 /* DeviceListController.h */,
-				CBA33BCC1613580F000899B6 /* DeviceListController.m */,
-				CBA33BBA161357BD000899B6 /* FBAppDelegate.h */,
-				CBA33BBB161357BD000899B6 /* FBAppDelegate.m */,
-				CBA33BCD1613580F000899B6 /* FSBrowserCell.h */,
-				CBA33BCE1613580F000899B6 /* FSBrowserCell.m */,
-				CBA33BCF1613580F000899B6 /* FSBrowserController.h */,
-				CBA33BD01613580F000899B6 /* FSBrowserController.m */,
-				CBA33BD11613580F000899B6 /* FSNode.h */,
-				CBA33BD21613580F000899B6 /* FSNode.m */,
-				CBA33BD31613580F000899B6 /* ImageAndTextCell.h */,
-				CBA33BD41613580F000899B6 /* ImageAndTextCell.m */,
+				CBA33BBA161357BD000899B6 /* FSBAppDelegate.h */,
+				CBA33BBB161357BD000899B6 /* FSBAppDelegate.m */,
+				CBA33BCD1613580F000899B6 /* FSBBrowserCell.h */,
+				CBA33BCE1613580F000899B6 /* FSBBrowserCell.m */,
+				CBA33BCF1613580F000899B6 /* FSBBrowserController.h */,
+				CBA33BD01613580F000899B6 /* FSBBrowserController.m */,
+				CBA33BC91613580F000899B6 /* FSBDefinitions.h */,
+				CBA33BCA1613580F000899B6 /* FSBDefinitions.m */,
+				CBA33BCB1613580F000899B6 /* FSBDeviceListController.h */,
+				CBA33BCC1613580F000899B6 /* FSBDeviceListController.m */,
+				CBA33BD11613580F000899B6 /* FSBNode.h */,
+				CBA33BD21613580F000899B6 /* FSBNode.m */,
+				CBA33BBD161357BD000899B6 /* MainMenu.xib */,
 				CBA33BD51613580F000899B6 /* NSFileManager+FSBAdditions.h */,
 				CBA33BD61613580F000899B6 /* NSFileManager+FSBAdditions.m */,
-				CBA33BBD161357BD000899B6 /* MainMenu.xib */,
+				CBC805102437C3610084A0C0 /* Apple Sources */,
 				CBA33BAF161357BD000899B6 /* Supporting Files */,
 			);
 			path = FileSystemBrowser;
@@ -126,12 +115,20 @@
 		CBA33BAF161357BD000899B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBA33BB0161357BD000899B6 /* FileSystemBrowser-Info.plist */,
+				CBA33BB0161357BD000899B6 /* Info.plist */,
 				CBA33BB1161357BD000899B6 /* InfoPlist.strings */,
 				CBA33BB4161357BD000899B6 /* main.m */,
-				CBA33BB6161357BD000899B6 /* FileSystemBrowser-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBC805102437C3610084A0C0 /* Apple Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CBA33BD31613580F000899B6 /* ImageAndTextCell.h */,
+				CBA33BD41613580F000899B6 /* ImageAndTextCell.m */,
+			);
+			name = "Apple Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,15 +158,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FSB;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Karl Moskowski";
 			};
 			buildConfigurationList = CBA33B9E161357BD000899B6 /* Build configuration list for PBXProject "FileSystemBrowser" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CBA33B99161357BD000899B6;
 			productRefGroup = CBA33BA5161357BD000899B6 /* Products */;
@@ -186,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9A58E8243910C900F4664A /* LICENSE.txt in Resources */,
 				CBA33BB3161357BD000899B6 /* InfoPlist.strings in Resources */,
 				CBA33BBF161357BD000899B6 /* MainMenu.xib in Resources */,
 			);
@@ -199,12 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA33BB5161357BD000899B6 /* main.m in Sources */,
-				CBA33BBC161357BD000899B6 /* FBAppDelegate.m in Sources */,
-				CBA33BD71613580F000899B6 /* Definitions.m in Sources */,
-				CBA33BD81613580F000899B6 /* DeviceListController.m in Sources */,
-				CBA33BD91613580F000899B6 /* FSBrowserCell.m in Sources */,
-				CBA33BDA1613580F000899B6 /* FSBrowserController.m in Sources */,
-				CBA33BDB1613580F000899B6 /* FSNode.m in Sources */,
+				CBA33BBC161357BD000899B6 /* FSBAppDelegate.m in Sources */,
+				CBA33BD71613580F000899B6 /* FSBDefinitions.m in Sources */,
+				CBA33BD81613580F000899B6 /* FSBDeviceListController.m in Sources */,
+				CBA33BD91613580F000899B6 /* FSBBrowserCell.m in Sources */,
+				CBA33BDA1613580F000899B6 /* FSBBrowserController.m in Sources */,
+				CBA33BDB1613580F000899B6 /* FSBNode.m in Sources */,
 				CBA33BDC1613580F000899B6 /* ImageAndTextCell.m in Sources */,
 				CBA33BDD1613580F000899B6 /* NSFileManager+FSBAdditions.m in Sources */,
 			);
@@ -224,7 +223,7 @@
 		CBA33BBD161357BD000899B6 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBA33BBE161357BD000899B6 /* en */,
+				CBC444F42434D22800D746D2 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -236,16 +235,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -254,7 +272,9 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -266,19 +286,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
@@ -288,11 +328,13 @@
 		CBA33BC3161357BD000899B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FileSystemBrowser/FileSystemBrowser-Prefix.pch";
-				INFOPLIST_FILE = "FileSystemBrowser/FileSystemBrowser-Info.plist";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E384S427VZ;
+				INFOPLIST_FILE = FileSystemBrowser/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = me.karlmoskowski.FileSystemBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,11 +342,13 @@
 		CBA33BC4161357BD000899B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FileSystemBrowser/FileSystemBrowser-Prefix.pch";
-				INFOPLIST_FILE = "FileSystemBrowser/FileSystemBrowser-Info.plist";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E384S427VZ;
+				INFOPLIST_FILE = FileSystemBrowser/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = me.karlmoskowski.FileSystemBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

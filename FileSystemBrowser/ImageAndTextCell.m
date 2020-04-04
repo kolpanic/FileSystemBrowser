@@ -206,8 +206,8 @@
 //	NSCellHitTrackableArea, the particular row will be tracked instead of dragged.
 //
 // -------------------------------------------------------------------------------
-- (NSUInteger) hitTestForEvent:(NSEvent *)event inRect:(NSRect)cellFrame ofView:(NSView *)controlView {
-	NSInteger result = NSCellHitContentArea;
+- (NSCellHitResult) hitTestForEvent:(NSEvent *)event inRect:(NSRect)cellFrame ofView:(NSView *)controlView {
+	NSCellHitResult result = NSCellHitContentArea;
     
 	NSOutlineView *hostingOutlineView = (NSOutlineView *)[self controlView];
 	if (hostingOutlineView)

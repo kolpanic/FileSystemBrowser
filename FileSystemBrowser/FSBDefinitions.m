@@ -1,12 +1,4 @@
-//
-//  Definitions.m
-//  FileSystemBrowser
-//
-//  Created by Karl Moskowski on 2012-09-26.
-//  Copyright (c) 2012 Karl Moskowski. All rights reserved.
-//
-
-#import "Definitions.h"
+#import "FSBDefinitions.h"
 
 NSString *const FSBCheckedItemsKey = @"CheckedItems";
 NSString *const FSBItemPathsKey = @"ItemPaths";
